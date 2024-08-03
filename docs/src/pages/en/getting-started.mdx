@@ -118,7 +118,7 @@ import traitlets
 
 class CounterWidget(anywidget.AnyWidget):
     _esm = pathlib.Path(__file__).parent / "index.js"
-    _css = pathlib.Path(__file__).parent / "index.css"
+    _css = pathlib.Path(__file__).parent / "styles.css"
     count = traitlets.Int(0).tag(sync=True)
 ```
 
